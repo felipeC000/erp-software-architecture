@@ -1,17 +1,17 @@
-# Introduction and Goals {#section-introduction-and-goals}
+# Introducción y Objetivos
 
-## Requirements Overview {#_requirements_overview}
+## Objetivo del sistema ERP
 
-## Quality Goals {#_quality_goals}
+El sistema ERP tiene como objetivo integrar y automatizar los procesos principales de la organización, permitiendo administrar de manera eficiente la información relacionada con compras, facturación, inventario, costos, activos fijos, empleados y análisis empresarial.
 
-## Stakeholders {#_stakeholders}
+El Módulo de Compras busca facilitar la gestión del proceso de adquisición de productos y servicios, permitiendo controlar proveedores, productos, órdenes de compra y recepción de mercancía, garantizando información organizada y disponible para la toma de decisiones.
 
-+-------------+---------------------------+---------------------------+
-| Role/Name   | Contact                   | Expectations              |
-+=============+===========================+===========================+
-| *           | *\<Contact-1\>*           | *\<Expectation-1\>*       |
-| \<Role-1\>* |                           |                           |
-+-------------+---------------------------+---------------------------+
-| *           | *\<Contact-2\>*           | *\<Expectation-2\>*       |
-| \<Role-2\>* |                           |                           |
-+-------------+---------------------------+---------------------------+
+## Requisitos de negocio del Módulo de Compras
+
+- Registrar y administrar proveedores.
+- Gestionar el catálogo de productos disponibles para compra.
+- Crear y controlar órdenes de compra.
+- Registrar la recepción de productos adquiridos.
+- Consultar el historial de compras realizadas.
+- Mantener trazabilidad de las operaciones de compra.
+- Facilitar el control del abastecimiento de la empresa.
