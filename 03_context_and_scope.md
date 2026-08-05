@@ -1,15 +1,19 @@
-# Context and Scope {#section-context-and-scope}
+# Alcance y Contexto del Sistema
 
-## Business Context {#_business_context}
+## Diagrama de Contexto (C1)
 
-**\<Diagram or Table\>**
+El diagrama de contexto representa la interacción del sistema ERP con los usuarios y sistemas externos relacionados con el proceso de compras.
 
-**\<optionally: Explanation of external domain interfaces\>**
+![Diagrama de Contexto](./images/c1_context.png)
 
-## Technical Context {#_technical_context}
+## Descripción
 
-**\<Diagram or Table\>**
+El sistema ERP permite que los usuarios administrativos gestionen las operaciones del Módulo de Compras.
 
-**\<optionally: Explanation of technical interfaces\>**
+Los principales actores son:
 
-**\<Mapping Input/Output to Channels\>**
+- Usuarios del sistema: gestionan proveedores, productos y órdenes de compra.
+- Proveedores: suministran productos y servicios a la organización.
+- Base de datos: almacena la información generada por el sistema.
+
+El sistema centraliza la información necesaria para controlar el proceso de adquisición.
