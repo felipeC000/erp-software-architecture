@@ -4,7 +4,7 @@
 
 El diagrama de contenedores muestra los componentes principales del sistema ERP y la responsabilidad de cada uno.
 
-<img width="260" height="862" alt="image" src="https://github.com/user-attachments/assets/ef0f14fc-9bed-496a-a261-53e36e31de7a" />
+<img width="260" height="862" alt="image" src="https://github.com/user-attachments/assets/ca1d916c-c3dd-4ee4-a0a6-6c9d1c561d98" />
 
 ## Contenedores del sistema
 
@@ -30,4 +30,3 @@ Responsabilidad:
 - Guardar productos registrados.
 - Registrar órdenes de compra.
 - Mantener la información histórica del sistema.
-
