@@ -1,33 +1,31 @@
-# Deployment View {#section-deployment-view}
+# Vista de Despliegue
 
-## Infrastructure Level 1 {#_infrastructure_level_1}
+La arquitectura del sistema ERP puede desplegarse en un ambiente cliente-servidor.
 
-***\<Overview Diagram\>***
+## Componentes desplegados
 
-Motivation
+### Cliente
 
-:   *\<explanation in text form\>*
+Navegador web utilizado por los usuarios para acceder al sistema.
 
-Quality and/or Performance Features
+### Servidor Frontend
 
-:   *\<explanation in text form\>*
+Aloja la aplicación desarrollada en React y proporciona la interfaz de usuario.
 
-Mapping of Building Blocks to Infrastructure
+### Servidor Backend
 
-:   *\<description of the mapping\>*
+Ejecuta la API desarrollada con Spring Boot y contiene la lógica del negocio.
 
-## Infrastructure Level 2 {#_infrastructure_level_2}
+### Servidor de Base de Datos
 
-### *\<Infrastructure Element 1\>* {#_infrastructure_element_1}
+Ejecuta PostgreSQL y almacena la información del ERP.
 
-*\<diagram + explanation\>*
+## Esquema de despliegue
 
-### *\<Infrastructure Element 2\>* {#_infrastructure_element_2}
-
-*\<diagram + explanation\>*
-
-...​
-
-### *\<Infrastructure Element n\>* {#_infrastructure_element_n}
-
-*\<diagram + explanation\>*
+Usuario
+↓
+Frontend React
+↓
+API Spring Boot
+↓
+Base de Datos PostgreSQL
